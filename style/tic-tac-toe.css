@@ -1,0 +1,61 @@
+body{
+    background-color: #000;
+}
+#container{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: #000;
+    text-align: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: 
+    'box1 box2 box3'
+    'box4 box5 box6'
+    'box7 box8 box9';
+}
+.boxes{
+    font-size: 100px;
+    cursor: pointer;
+    background-color: #27214d;
+    color: #d42450;
+    text-align: center;
+    line-height: 164px;
+    height: 164px;
+    width: 164px;
+}
+
+.s1{
+    grid-area: box1;
+}
+.s2{
+    grid-area: box2;
+}
+.s3{
+    grid-area: box3;
+}
+.s4{
+    grid-area: box4;
+}
+.s5{
+    grid-area: box5;
+}
+.s6{
+    grid-area: box6;
+}
+.s7{
+    grid-area: box7;
+}
+.s8{
+    grid-area: box8;
+}
+.s9{
+    grid-area: box9;
+}
+
+#status{
+    text-align: center;
+    color: #a9d400;
+    font-size: 30px;
+    
+}
